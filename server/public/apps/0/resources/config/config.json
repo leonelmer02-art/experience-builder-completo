@@ -1,0 +1,1478 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Página",
+      "bodyBackgroundColor": "var(--light)",
+      "header": true,
+      "footer": false
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_51",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "3"
+      ]
+    },
+    "layout_1": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": []
+    },
+    "layout_5": {
+      "content": {},
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_6": {
+      "type": "FIXED",
+      "order": [
+        "4"
+      ],
+      "content": {
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "0px",
+            "right": "0px",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_7": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "width": "314px",
+            "height": 51
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "width": "52px",
+            "height": 45
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "width": "452px",
+            "height": "32px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH",
+              "height": "AUTO"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_45",
+          "bbox": {
+            "width": "200.00px",
+            "height": "54px"
+          }
+        }
+      },
+      "type": "FLEX_ROW",
+      "order": [
+        "1",
+        "0",
+        "2",
+        "3"
+      ],
+      "label": "Default"
+    },
+    "layout_8": {
+      "type": "FIXED",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "385px",
+            "top": "0.0000%",
+            "width": "226px",
+            "height": "100.0000%"
+          },
+          "widgetId": "widget_9",
+          "isPending": true,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "28.8889%",
+            "top": "50%",
+            "width": "50.00px",
+            "height": "50.00px",
+            "right": 0
+          },
+          "widgetId": "widget_10",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": true,
+            "heightMode": "ratio",
+            "aspectRatio": 1
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0%",
+            "right": "50.00px",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    "layout_9": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "width": "50.00px",
+            "height": "30px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "width": "184.00px",
+            "height": "44.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "width": "STRETCH"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        }
+      },
+      "type": "FLEX_ROW",
+      "order": [
+        "0",
+        "1"
+      ],
+      "label": "Default"
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "content": {
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "91.2%",
+            "right": "0%",
+            "top": "50%",
+            "bottom": "0.0%",
+            "width": "50.00px",
+            "height": "50px"
+          },
+          "widgetId": "widget_10",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": 1
+          },
+          "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "bbox": {
+            "left": "0%",
+            "right": "50.00px",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "4",
+        "5"
+      ]
+    },
+    "layout_11": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "width": "260.00px",
+            "height": "44px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "width": "50.00px",
+            "height": "30px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "width": "360px",
+            "height": "32.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH",
+              "height": "AUTO"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        }
+      },
+      "type": "FLEX_ROW",
+      "order": [
+        "1",
+        "0",
+        "2"
+      ],
+      "label": "Default"
+    },
+    "layout_25": {
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_48",
+          "bbox": {},
+          "setting": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_49",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "3",
+        "2"
+      ]
+    },
+    "layout_26": {
+      "content": {
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "7.2%",
+            "bottom": "1.8%",
+            "width": "100.0%",
+            "height": "91.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "lockParent": true,
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_62",
+          "bbox": {
+            "left": "33.5%",
+            "right": "31.7%",
+            "top": "0.0%",
+            "bottom": "96.5%",
+            "width": "34.8%",
+            "height": "3.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_63",
+          "bbox": {
+            "left": "70.2%",
+            "right": "-1.0%",
+            "top": "0.0%",
+            "bottom": "96.5%",
+            "width": "30.8%",
+            "height": "3.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_64",
+          "bbox": {
+            "left": "1.0%",
+            "right": "68.2%",
+            "top": "0.0%",
+            "bottom": "96.5%",
+            "width": "30.8%",
+            "height": "3.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Primero",
+      "order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_27": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Segundo",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_31": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_56",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_32": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_77",
+          "bbox": {
+            "left": "10.8%",
+            "right": "8.2%",
+            "top": "0.0%",
+            "bottom": "81.8%",
+            "width": "81.0%",
+            "height": "18.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_78",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "20.3%",
+            "bottom": "22.1%",
+            "width": "100.0%",
+            "height": "57.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_79",
+          "bbox": {
+            "left": "2.9%",
+            "right": "85.4%",
+            "top": "94.0%",
+            "bottom": "1.2%",
+            "width": "11.7%",
+            "height": "4.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_33": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    }
+  },
+  "exbVersion": "1.17.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/dark/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "462726898f7b47a4a309b47fbe60db9d",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.17.0",
+      "label": "Mapa",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canLayers": false,
+          "canBaseMap": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 72223.819286,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -11810896.736565486,
+              "y": 3329895.9365760884
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -11823126.661091097,
+            "ymin": 3323026.1586589674,
+            "xmax": -11798666.812039874,
+            "ymax": 3336765.7144932095
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "scaleRange": null
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_6": {
+      "uri": "widgets/layout/flowrow/",
+      "version": "1.17.0",
+      "label": "Fila de flujo",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_6",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_7"
+        }
+      }
+    },
+    "widget_7": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Imagen",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.ciudadcercana.org/",
+            "expression": null
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://geoportal.implanchihuahua.org/sigmun/sharing/rest/content/items/d6e652c4243346c1afcdc847abdf43dd/resources/inConfig/30162246035956797.png",
+            "originalUrl": "https://geoportal.implanchihuahua.org/sigmun/sharing/rest/content/items/d6e652c4243346c1afcdc847abdf43dd/resources/inConfig/30162246035956797.png",
+            "fileName": "30162246035956797.png",
+            "originalName": "30162246035956797.png",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_7",
+      "useDataSources": []
+    },
+    "widget_8": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Texto",
+      "config": {
+        "text": "<p><span style=\"font-size: 24px;\">﻿</span><strong style=\"font-size: 30px; color: var(--primary-700);\">Ciudad</strong><span style=\"font-size: 24px;\"> </span><strong style=\"font-size: 30px; color: rgb(1, 42, 132);\">CERCANA</strong></p>",
+        "placeholder": "<p><span style=\"font-size: 24px;\">Título</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true
+        }
+      },
+      "id": "widget_8"
+    },
+    "widget_9": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Texto 2",
+      "config": {
+        "text": "<p style=\"line-height: 1.5;\"><span style=\"font-size: 16px; color: var(--primary-700);\">﻿Una Ciudad</span><span style=\"font-size: 16px;\"> </span><span style=\"font-size: 16px; color: rgb(1, 42, 132);\">para las Personas</span></p>",
+        "placeholder": "<p style=\"line-height: 1.5;\"><span style=\"font-size: 16px;\">Subtítulo</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true
+        }
+      },
+      "id": "widget_9"
+    },
+    "widget_10": {
+      "uri": "widgets/common/menu/",
+      "version": "1.17.0",
+      "label": "Menú 2",
+      "config": {
+        "type": "drawer",
+        "menuStyle": "default",
+        "vertical": true,
+        "standard": {
+          "icon": {
+            "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#fff",
+              "size": 20,
+              "inlineSvg": false
+            }
+          },
+          "submenuMode": "foldable",
+          "textAlign": "center",
+          "showIcon": false,
+          "showText": true,
+          "iconPosition": "start",
+          "gap": "0px",
+          "anchor": "right"
+        },
+        "advanced": false
+      },
+      "id": "widget_10"
+    },
+    "widget_11": {
+      "uri": "widgets/layout/flowrow/",
+      "version": "1.17.0",
+      "label": "Fila de flujo 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_11",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_9"
+        }
+      }
+    },
+    "widget_12": {
+      "uri": "widgets/layout/flowrow/",
+      "version": "1.17.0",
+      "label": "Fila de flujo 3",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_12",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_11"
+        }
+      }
+    },
+    "widget_45": {
+      "uri": "widgets/common/controller/",
+      "version": "1.17.0",
+      "label": "Controlador de widget",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "alignment": "end",
+          "arrangement": "fixed",
+          "overflownStyle": "POPUP_WINDOW"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "lg",
+              "shape": "circle"
+            },
+            "showIndicator": false,
+            "showTooltip": true,
+            "variant": {
+              "default": {
+                "bg": "var(--secondary-100)",
+                "iconColor": "var(--dark-100)"
+              },
+              "active": {
+                "iconColor": "#ffffff"
+              },
+              "hover": {
+                "iconColor": "#ffffff"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_45",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_25"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--light-100)",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_48": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.17.0",
+      "label": "Capas del mapa 2",
+      "config": {
+        "useMapWidget": true
+      },
+      "id": "widget_48",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_49": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.17.0",
+      "label": "Leyenda",
+      "config": {
+        "style": {
+          "useCustom": true,
+          "background": {
+            "color": "",
+            "fillType": "fill"
+          }
+        }
+      },
+      "id": "widget_49",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_51": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.17.0",
+      "label": "Barra lateral",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "300px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "template": "default"
+        },
+        "defaultState": 1
+      },
+      "id": "widget_51",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_26"
+        },
+        "SECOND": {
+          "LARGE": "layout_27"
+        }
+      }
+    },
+    "widget_56": {
+      "uri": "widgets/analizar-punto/",
+      "version": "1.0.0",
+      "label": "Analizar punto",
+      "config": {
+        "properties": {}
+      },
+      "id": "widget_56",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_62": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Botón",
+      "config": {
+        "functionConfig": {
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A46 46 0 0 1 8 14.492a48 48 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133m1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.751C5.768 13.444 2 8.817 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133M10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Anclar",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "outlined/application/pin.svg",
+                "path": [
+                  "general",
+                  "mapPin"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "text": "Solicitudes",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_0,view_3",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "var(--warning-200)",
+                "fillType": "fill"
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "var(--warning-400)",
+                "fillType": "fill"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_62",
+      "useDataSourcesEnabled": false
+    },
+    "widget_63": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Botón 2",
+      "config": {
+        "functionConfig": {
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"m11.002 7.002-3 3-3-3v-4a2.893 2.893 0 0 1 3-3 2.893 2.893 0 0 1 3 3zm-3-6h-.038a1.893 1.893 0 0 0-1.963 1.962l.001.018v3.606l2 2 2-2V2.964A1.894 1.894 0 0 0 8.04 1z\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M4.072 1.908a10.4 10.4 0 0 1-1.939-.433L0 13.077c1.2.504 2.493.746 3.793.711A10.7 10.7 0 0 0 7 13.31v1.678H2v1h11v-1H8v-2a11.9 11.9 0 0 1 4.207-.8A6.62 6.62 0 0 1 16 13.277L13.867 1.674a8.2 8.2 0 0 0-2.236-.61 3.5 3.5 0 0 1 .336 1.066q.514.097 1.009.27l1.72 9.163a8.3 8.3 0 0 0-2.489-.376 12.8 12.8 0 0 0-4.526.852l-.604.204-.363.108a9.7 9.7 0 0 1-2.921.436 9.5 9.5 0 0 1-2.668-.363l1.81-9.697q.53.115 1.068.18v-.173a3.4 3.4 0 0 1 .069-.826\"></path></svg>",
+              "properties": {
+                "filename": "FeatureServiceOutlined",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "outlined/gis/feature-service.svg",
+                "path": [
+                  "gis",
+                  "FeatureServiceOutlined"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "text": "Analizar",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_0,view_1",
+            "openType": "_self"
+          },
+          "textExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "var(--warning-200)",
+                "fillType": "fill"
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "var(--warning-400)",
+                "fillType": "fill"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_63",
+      "useDataSourcesEnabled": false
+    },
+    "widget_64": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Botón 3",
+      "config": {
+        "functionConfig": {
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16m0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Información",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "outlined/suggested/info.svg",
+                "path": [
+                  "general",
+                  "info"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "text": "Inicio",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_0,view_2",
+            "openType": "_self"
+          },
+          "textExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "var(--warning-200)",
+                "fillType": "fill"
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "var(--warning-400)",
+                "fillType": "fill"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_64",
+      "useDataSourcesEnabled": false
+    },
+    "widget_77": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Texto 3",
+      "config": {
+        "text": "<p style=\"text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 13px; color: var(--warning-600);\">Bienbenido a</strong></p><p style=\"text-align: left;\"><strong style=\"font-size: 30px;\">Ciudad</strong><strong> </strong><strong style=\"letter-spacing: normal; font-family: &quot;Avenir Next&quot;; font-size: 30px; color: rgb(194, 205, 0);\">Cercana</strong></p><p style=\"text-align: left;\"><strong style=\"font-size: 30px;\">Política Publica</strong></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_77"
+    },
+    "widget_78": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Texto 4",
+      "config": {
+        "text": "<h3 style=\"margin: 0px 0px 15px; line-height: 1.5; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(255, 255, 255); font-size: 20px; letter-spacing: normal;\">¿Qué es&nbsp;</strong><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(194, 205, 0); font-size: 20px; letter-spacing: normal;\">Ciudad Cercana?</strong></h3><p style=\"text-align: left;\"><span style=\"float: none; display: inline; letter-spacing: normal; font-size: 16px; font-family: Muli, sans-serif; color: rgb(255, 255, 255);\">Ciudad Cercana es una iniciativa que busca desarrollar espacios de vivienda bien ubicados dentro de la ciudad, donde las personas tengan fácil acceso a servicios esenciales como escuelas, farmacias, supermercados y transporte público. Su objetivo es reducir los tiempos de traslado, disminuir la dependencia del automóvil y fomentar un estilo de vida más incluyente, dinámico y sustentable en Chihuahua. Impulsa el aprovechamiento de áreas urbanas con infraestructura existente, haciéndolas más atractivas para sus habitantes.</span></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_78"
+    },
+    "widget_79": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Botón 4",
+      "config": {
+        "functionConfig": {
+          "icon": {
+            "data": {
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1778261899898.png",
+              "properties": {
+                "filename": "1778261899898.png",
+                "originalName": "facebook_logo_icon_257007.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1778261899898.png",
+                "isUploaded": true,
+                "inlineSvg": false
+              }
+            },
+            "position": "LEFT"
+          },
+          "text": "",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.facebook.com/implanchihuahua/",
+            "expression": null
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "iconProps": {
+                "size": 35
+              }
+            },
+            "regular": {
+              "iconProps": {
+                "size": 30
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_79"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "Consulta por Punto",
+      "layout": {
+        "LARGE": "layout_31"
+      }
+    },
+    "view_2": {
+      "id": "view_2",
+      "label": "Inicio",
+      "layout": {
+        "LARGE": "layout_32"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "var(--warning-200)",
+      "backgroundIMage": {
+        "url": ""
+      }
+    },
+    "view_3": {
+      "id": "view_3",
+      "label": "Solisitudes Proyectos",
+      "layout": {
+        "LARGE": "layout_33"
+      }
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "Sección",
+      "views": [
+        "view_1",
+        "view_2",
+        "view_3"
+      ],
+      "arrowsNav": {
+        "visible": false
+      },
+      "dotsNav": {
+        "visible": false
+      },
+      "autoPlay": false
+    }
+  },
+  "dialogs": {},
+  "messageConfigs": {
+    "messageConfig_3": {
+      "id": "messageConfig_3",
+      "widgetId": "widget_62",
+      "messageType": "BUTTON_CLICK",
+      "actions": []
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://idecuu.mpiochih.gob.mx/implan"
+  },
+  "sharedThemeVariables": null,
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Mapa Ciudad Cercana",
+      "itemId": "e89f3bce00844d2cbdad7ba00ba2d050",
+      "portalUrl": "https://idecuu.mpiochih.gob.mx/implan"
+    }
+  },
+  "originExbVersion": "1.17.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {},
+  "header": {
+    "layout": {
+      "LARGE": "layout_6",
+      "SMALL": "layout_8",
+      "MEDIUM": "layout_10"
+    },
+    "height": {
+      "LARGE": "50"
+    },
+    "backgroundColor": "var(--light)"
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_5"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  },
+  "controllerPanels": {
+    "widget_45": {
+      "position": "BOTTOM_RIGHT",
+      "width": "300px",
+      "height": "743px",
+      "offsetX": -3,
+      "offsetY": -3,
+      "widthMode": "CUSTOM",
+      "heightMode": "CUSTOM"
+    }
+  },
+  "timestamp": 1778513259640
+}

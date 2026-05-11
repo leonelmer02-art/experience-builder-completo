@@ -1,0 +1,92 @@
+/* 🔥 CONTENEDOR GENERAL */
+.custom-legend-container {
+  font-size: 12px;
+  line-height: 1.2;
+  transition: box-shadow 0.2s ease;
+}
+
+.custom-legend-container:hover {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* 🔥 CADA CAPA es la clasificacion o el simbolo segun sea la capa */
+.custom-legend-container .esri-legend__layer {
+  margin-top: 0px !important; /* 🔥 separación arriba */
+  margin-bottom: 0px !important; /* separa capas entre sí baja la sigiente capa */
+  padding-bottom: 2px !important;
+}
+
+/* 🔥 SERVICIOS (agrupadores) aqui es todo el contenido de cada simgologia */
+.custom-legend-container .esri-legend__service {
+  margin-top: 6px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-left: 6px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+/* 🔥 GRUPOS */
+.custom-legend-container .esri-legend__group-layer {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* 🔥 TÍTULO DE clasificacion o atributo que se clasifica (SIN FONDO YA) */
+.custom-legend-container .esri-legend__layer-caption {
+  margin-top: 0px !important;
+  padding: 0 !important; /* 🔥 más espacio abajo */
+  background: transparent !important;
+}
+
+/* 🔥 CUERPO DE LA SIMBOLOGÍA */
+.custom-legend-container .esri-legend__layer-body {
+  margin: 0 !important;
+  padding: 0 0 0 4px !important;
+}
+
+/* 🔥 CADA SÍMBOLO */
+.custom-legend-container .esri-legend__symbol {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 🔥 ITEMS DE TABLA (MUY IMPORTANTE) */
+.custom-legend-container .esri-legend__layer-table {
+  margin: 0 !important;
+}
+
+/* 🔥 FILAS DE LA LEYENDA */
+.custom-legend-container .esri-legend__layer-row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 🔥 TEXTO */
+.custom-legend-container .esri-legend__label {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 🔥 SCROLL MODERNO */
+.custom-legend-container {
+  scrollbar-width: auto;
+  scrollbar-color: #c1c1c1 transparent;
+}
+
+.custom-legend-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-legend-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-legend-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+.custom-legend-container::-webkit-scrollbar-thumb:hover {
+  background: #9e9e9e;
+}

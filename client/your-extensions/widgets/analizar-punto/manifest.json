@@ -1,0 +1,9 @@
+{
+  "name": "analizar-punto",
+  "label": "Analizar punto",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.0.0",
+  "author": "Tu nombre",
+  "description": "Consulta información de capas al dar clic en el mapa"
+}

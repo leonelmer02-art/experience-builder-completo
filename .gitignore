@@ -1,5 +1,5 @@
 node_modules
-dist
+server/dist
 dist-prod
 dist-report
 .cache

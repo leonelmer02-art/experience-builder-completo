@@ -2,7 +2,7 @@
   "created": 1777324676224,
   "description": "",
   "id": "0",
-  "modified": 1778513263058,
+  "modified": 1778602601142,
   "owner": "elmer.ornelas",
   "tags": [],
   "thumbnail": null,
@@ -19,7 +19,8 @@
     "Web Experience",
     "Web Mapping Application",
     "Web Page",
-    "Web Site"
+    "Web Site",
+    "publishVersion:1.17.0"
   ],
   "portalUrl": "https://idecuu.mpiochih.gob.mx/implan",
   "username": "elmer.ornelas",

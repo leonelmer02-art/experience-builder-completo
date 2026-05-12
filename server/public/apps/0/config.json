@@ -654,8 +654,32 @@
     },
     "layout_33": {
       "type": "FIXED",
-      "content": {},
-      "order": []
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_80",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "2.8%",
+            "bottom": "92.2%",
+            "width": "100.0%",
+            "height": "5.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.17.0",
@@ -1362,6 +1386,213 @@
         }
       },
       "id": "widget_79"
+    },
+    "widget_80": {
+      "uri": "widgets/common/search/",
+      "version": "1.17.0",
+      "offPanel": true,
+      "label": "Buscar",
+      "config": {
+        "searchResultView": "Result_Panel",
+        "arrangementStyle": "Style1",
+        "searchResultStyle": "Classic",
+        "maxSuggestions": 6,
+        "recentSearchesMaxNumber": 6,
+        "resultMaxNumber": 6,
+        "enableFiltering": false,
+        "sourceType": "MapCentric",
+        "dataSourceConfigWithMapCentric": {
+          "widget_1-dataSource_1": {
+            "dataSourceConfig": [
+              {
+                "configId": "config_0",
+                "icon": null,
+                "label": "Solicitudes Proyectos Ciudad Cercana",
+                "displayLabel": true,
+                "useDataSource": {
+                  "dataSourceId": "dataSource_1-19dc06b5dbc-layer-7",
+                  "mainDataSourceId": "dataSource_1-19dc06b5dbc-layer-7",
+                  "rootDataSourceId": "dataSource_1",
+                  "fields": [
+                    "cve_ent",
+                    "proyecto",
+                    "dictamen",
+                    "oficio",
+                    "folio",
+                    "ano_soli",
+                    "cod_obj_ge",
+                    "fte_inf",
+                    "sup_m2",
+                    "tot_ingre"
+                  ]
+                },
+                "displayFields": [
+                  {
+                    "jimuName": "cod_obj_ge",
+                    "name": "cod_obj_ge",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Código del Objeto Geográfico",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "fte_inf",
+                    "name": "fte_inf",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Fuente de Información",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "proyecto",
+                    "name": "proyecto",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Nombre del Proyecto",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "sup_m2",
+                    "name": "sup_m2",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "Superficie en Metros Cuadrados",
+                    "format": {
+                      "digitSeparator": false,
+                      "places": 6
+                    }
+                  },
+                  {
+                    "jimuName": "dictamen",
+                    "name": "dictamen",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Dictaminación Otorgada",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "tot_ingre",
+                    "name": "tot_ingre",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeInteger",
+                    "alias": "Total de Ingresos",
+                    "format": {
+                      "digitSeparator": false,
+                      "places": 0
+                    }
+                  },
+                  {
+                    "jimuName": "oficio",
+                    "name": "oficio",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Número de Oficio",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "folio",
+                    "name": "folio",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Número de Folio",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "ano_soli",
+                    "name": "ano_soli",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Año de la Solicitud",
+                    "format": null
+                  }
+                ],
+                "searchFields": [
+                  {
+                    "jimuName": "cve_ent",
+                    "name": "cve_ent",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Clave del Estado",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "proyecto",
+                    "name": "proyecto",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Nombre del Proyecto",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "dictamen",
+                    "name": "dictamen",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Dictaminación Otorgada",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "oficio",
+                    "name": "oficio",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Número de Oficio",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "folio",
+                    "name": "folio",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Número de Folio",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "ano_soli",
+                    "name": "ano_soli",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Año de la Solicitud",
+                    "format": null
+                  }
+                ],
+                "hint": "",
+                "searchServiceType": "FeatureService",
+                "searchExact": false,
+                "searchInCurrentMapExtent": false
+              }
+            ],
+            "synchronizeSettings": false
+          }
+        },
+        "datasourceConfig": [],
+        "isAutoSelectFirstResult": true
+      },
+      "id": "widget_80",
+      "useMapWidgetIds": [
+        "widget_1"
+      ],
+      "useUtilities": [],
+      "outputDataSources": [],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-19dc06b5dbc-layer-7",
+          "mainDataSourceId": "dataSource_1-19dc06b5dbc-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "cve_ent",
+            "proyecto",
+            "dictamen",
+            "oficio",
+            "folio",
+            "ano_soli",
+            "cod_obj_ge",
+            "fte_inf",
+            "sup_m2",
+            "tot_ingre"
+          ]
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -1418,6 +1649,94 @@
       "widgetId": "widget_62",
       "messageType": "BUTTON_CLICK",
       "actions": []
+    },
+    "messageConfig_4": {
+      "id": "messageConfig_4",
+      "widgetId": "widget_80",
+      "messageType": "DATA_RECORD_SET_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_1-showOnMap-1778602485427_for_search_map_centric",
+          "widgetId": "widget_1",
+          "messageWidgetId": "widget_80",
+          "actionName": "showOnMap",
+          "description": null,
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1
+                }
+              }
+            },
+            "isOperationalLayer": true
+          },
+          "version": "1.17.0"
+        }
+      ]
+    },
+    "messageConfig_5": {
+      "id": "messageConfig_5",
+      "widgetId": "widget_80",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_1-zoomToFeature-1778602485437_for_search_map_centric",
+          "widgetId": "widget_1",
+          "messageWidgetId": "widget_80",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": null,
+            "useDataSources": [],
+            "goToInitialMapExtentWhenSelectionCleared": false,
+            "useAnyTriggerData": true
+          },
+          "version": "1.17.0"
+        }
+      ]
     }
   },
   "attributes": {
@@ -1470,6 +1789,28 @@
       "heightMode": "CUSTOM"
     }
   },
-  "timestamp": 1778513259640,
-  "publishTimestamp": 1778513263053
+  "timestamp": 1778602598085,
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": "GEOCODING",
+      "name": "geocode",
+      "label": "ArcGIS World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "westLon": "Xmin",
+        "southLat": "Ymin",
+        "name": "ArcGIS World Geocoding Service",
+        "batch": false,
+        "placefinding": true,
+        "northLat": "Ymax",
+        "eastLon": "Xmax",
+        "suggest": true
+      },
+      "taskName": "ArcGIS World Geocoding Service",
+      "index": 0
+    }
+  },
+  "publishTimestamp": 1778602601136
 }

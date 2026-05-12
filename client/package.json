@@ -93,6 +93,7 @@
     "true-case-path": "^2.2.1",
     "url": "^0.11.4",
     "uuid": "^11.0.3",
+    "webpack-cli": "^5.1.4",
     "whatwg-fetch": "^3.6.20",
     "workbox-cacheable-response": "^7.3.0",
     "workbox-routing": "^7.3.0",
